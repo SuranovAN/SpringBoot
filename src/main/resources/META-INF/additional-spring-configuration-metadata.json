@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "suranovan.springboot.profiles.dev",
+      "type": "java.lang.String",
+      "description": "Description for suranovan.springboot.profiles.dev."
+    }
+  ]
+}
