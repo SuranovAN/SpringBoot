@@ -10,7 +10,7 @@ import suranovan.springboot.profiles.SystemProfile;
 @Configuration
 public class JavaConfig {
     @Bean
-    @ConditionalOnProperty(name = "suranovan.springboot.profiles.dev", havingValue = "true")
+    @ConditionalOnProperty(name = "suranovan.springboot.profiles.dev", havingValue = "true", matchIfMissing = true)
     public SystemProfile devProfile() {
         return new DevProfile();
     }
